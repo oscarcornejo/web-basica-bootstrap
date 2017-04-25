@@ -9,6 +9,7 @@ Paso 1: Plantilla básica
 
 Primero debemos de tener la estructura básica de la plantilla que nos ofrece Bootstrap desde su pagina oficial. Seria la siguiente y la puedes usar en cualquier editor:
 
+```
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -33,7 +34,6 @@ Primero debemos de tener la estructura básica de la plantilla que nos ofrece Bo
 </head>
 <body>
 
-
 <!-- Librerías y Archivos JS-->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery-3.2.1.min.js"></script>
@@ -43,13 +43,14 @@ Primero debemos de tener la estructura básica de la plantilla que nos ofrece Bo
 <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
-
+```
 
 Paso 2: Menú de navegación
 --------------------
 
 Ahora vamos a insertar el código para tener el menú de navegación, con un buscador, y el menú con opciones dentro:
 
+```
 <section class="container">
 <div class="row">
 <!-- Sección de Header -->
@@ -113,12 +114,14 @@ Ahora vamos a insertar el código para tener el menú de navegación, con un bus
 </header><!-- Fin Sección de Header -->
 </div>
 </section>
+```
 
 Paso 3: Cabecera usando jumbotron
 --------------------
 
 Después vamos a realizar la cabecera principal en donde puedes hacer destacar de manera elegante algun articulo, anuncio, etc. Esto lo podemos hacer bien fácil con Bootstrap usando el código siguiente:
- 
+
+```
 <!-- Sección Jumbotron -->
 <div class="container">
 <div class="row">
@@ -130,11 +133,14 @@ Después vamos a realizar la cabecera principal en donde puedes hacer destacar d
 </div>
 </div><!-- Fin Sección Jumbotron -->
 
+```
+
 Paso 4: Insertando los artículos
 --------------------
 
 Vamos a insertar los artículos en nuestra pagina, en este caso puedes utilizar los artículos que quieras, pero para este ejemplo solo te mostrare a continuación el código de un solo articulo, si tu quieres mas artículos solo tienes que copiar y pegar lo siguiente:
 
+```
 <!-- Sección de Artículos -->
 <div class="container" style="padding: 15px 10px;">
 <div class="row">
@@ -146,12 +152,14 @@ Vamos a insertar los artículos en nuestra pagina, en este caso puedes utilizar 
 </div>
 </div>
 </div><!-- Fin Sección de Artículos -->
+```
 
 Paso 5: Multimedia
 --------------------
 
 También agregaremos imágenes y un video a nuestra web, para ello, escribiremos el siguiente código:
 
+```
 <!-- Sección de Multimedia -->
 <div class="container" style="padding: 15px 10px;">
 <div class="row">
@@ -190,14 +198,16 @@ También agregaremos imágenes y un video a nuestra web, para ello, escribiremos
 </div>
 <hr>
 </div><!-- Sección de Multimedia -->
+```
 
 Paso 6: Pie de Página / Footer
 --------------------
 
 Para terminar, vamos a insertar el pie de página o footer que consta de solo dos textos centrados en base a la pagina con el siguiente código:
 
+```
 <footer class="footer-basic-centered">
 <p class="footer-company-motto">Proyecto Autogestión</p>
 <p class="footer-derechos">Todos los Derechos e Izquierdos Reservados &copy; 2017</p>
 </footer><!-- Fin Sección Pie de Página -->
-
+```
