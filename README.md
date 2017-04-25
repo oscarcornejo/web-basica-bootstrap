@@ -1,7 +1,7 @@
 Página Web Básica con Bootstrap 3
 ==========
 
-En este clase vamos a ver como crear una página básica con Bootstrap 3 y que se pueda ver para los múltiples dispositivos como escritorio, tablets y teléfonos mobiles.
+En esta clase vamos a ver como crear una página básica con Bootstrap 3 y que se pueda ver para los múltiples dispositivos como escritorio, tablets y teléfonos mobiles.
 
 
 Paso 1: Plantilla básica
@@ -122,7 +122,7 @@ Primero debemos de tener la estructura básica de la plantilla que nos ofrece Bo
  Paso 3: Cabecera usando jumbotron
  --------------------
 
- Después vamos a realizar la cabecera principal en donde puedes hacer destacar de manera elegante algun articulo, anuncio, etc. Esto lo podemos hacer bien fácil con Bootstrap usando el código siguiente:
+Después vamos a realizar la cabecera principal en donde puedes hacer destacar de manera elegante algun articulo, anuncio, etc. Esto lo podemos hacer bien fácil con Bootstrap usando el código siguiente:
 
  ```
  <!-- Sección Jumbotron -->
