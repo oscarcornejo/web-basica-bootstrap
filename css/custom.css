@@ -1,0 +1,30 @@
+h3.logo-footer{
+    margin-top: 1px;
+    color: #fff;
+}
+
+
+.footer-basic-centered {
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font: normal 18px sans-serif;
+    padding: 45px;
+    /*margin-top: 80px;*/
+    margin-top: 50px;
+}
+
+.footer-basic-centered .footer-company-motto {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.footer-basic-centered .footer-derechos {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+}
