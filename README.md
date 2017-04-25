@@ -10,6 +10,7 @@ Paso 1: Plantilla básica
 Primero debemos de tener la estructura básica de la plantilla que nos ofrece Bootstrap desde su pagina oficial. Seria la siguiente y la puedes usar en cualquier editor:
 
 ```
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
