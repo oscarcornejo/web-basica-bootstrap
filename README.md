@@ -54,68 +54,68 @@ Primero debemos de tener la estructura básica de la plantilla que nos ofrece Bo
  ```
 
  <section class="container">
- 	<div class="row">
- 		<!-- Sección de Header -->
- 		<header>
- 			<!-- Sección de Nav -->
- 			<nav class="navbar navbar-default" role="navigation">
- 				<div class="container-fluid">
- 					<!-- Brand and toggle get grouped for better mobile display -->
- 					<div class="navbar-header">
- 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
- 							<span class="sr-only">Toggle navigation</span>
- 							<span class="icon-bar"></span>
- 							<span class="icon-bar"></span>
- 							<span class="icon-bar"></span>
- 						</button>
- 						<a class="navbar-brand" href="#">Proyecto Autogestión</a>
- 					</div>
+	<div class="row">
+		<!-- Sección de Header -->
+		<header>
+			<!-- Sección de Nav -->
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Proyecto Autogestión</a>
+					</div>
 
- 					<!-- Collect the nav links, forms, and other content for toggling -->
- 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
- 						<ul class="nav navbar-nav">
- 							<li class="active"><a href="#">Inicio</a></li>
- 							<li><a href="#">Nosotros</a></li>
- 							<li class="dropdown">
- 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios <span class="caret"></span></a>
- 								<ul class="dropdown-menu" role="menu">
- 									<li><a href="#">Desarrollos</a></li>
- 									<li><a href="#">Diseño</a></li>
- 									<li><a href="#">Publicidad</a></li>
- 									<li class="divider"></li>
- 									<li><a href="#">Consultoria</a></li>
- 									<li class="divider"></li>
- 									<li><a href="#">Otros</a></li>
- 								</ul>
- 							</li>
- 							<li><a href="#">Contacto</a></li>
- 						</ul>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Inicio</a></li>
+							<li><a href="#">Nosotros</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios <span class="caret"></span></a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">Desarrollos</a></li>
+									<li><a href="#">Diseño</a></li>
+									<li><a href="#">Publicidad</a></li>
+									<li class="divider"></li>
+									<li><a href="#">Consultoria</a></li>
+									<li class="divider"></li>
+									<li><a href="#">Otros</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Contacto</a></li>
+						</ul>
 
- 						<form class="navbar-form navbar-left" role="search">
- 							<div class="form-group">
- 								<input type="text" class="form-control" placeholder="Buscador">
- 							</div>
- 							<button type="submit" class="btn btn-default">Buscar</button>
- 						</form>
- 						<ul class="nav navbar-nav navbar-right">
- 							<li><a href="#">Usuario</a></li>
- 							<li class="dropdown">
- 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Mi cuenta <span class="caret"></span></a>
- 								<ul class="dropdown-menu" role="menu">
- 									<li><a href="#">Ingresar</a></li>
- 									<li><a href="#">Registrarse</a></li>
- 									<li><a href="#">Configuración</a></li>
- 									<li class="divider"></li>
- 									<li><a href="#">Cerrar Sesión</a></li>
- 								</ul>
- 							</li>
- 						</ul>
- 					</div><!-- /.navbar-collapse -->
- 				</div><!-- /.container-fluid -->
- 			</nav><!-- Fin Sección de Nav -->
- 		</header><!-- Fin Sección de Header -->
- 	</div>
- </section>
+						<form class="navbar-form navbar-left" role="search">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Buscador">
+							</div>
+							<button type="submit" class="btn btn-default">Buscar</button>
+						</form>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#">Usuario</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Mi cuenta <span class="caret"></span></a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">Ingresar</a></li>
+									<li><a href="#">Registrarse</a></li>
+									<li><a href="#">Configuración</a></li>
+									<li class="divider"></li>
+									<li><a href="#">Cerrar Sesión</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav><!-- Fin Sección de Nav -->
+		</header><!-- Fin Sección de Header -->
+	</div>
+</section>
 
  ```
 
@@ -126,14 +126,14 @@ Después vamos a realizar la cabecera principal en donde puedes hacer destacar d
 
  ```
  <!-- Sección Jumbotron -->
- <div class="container">
- 	<div class="row">
- 		<div class="jumbotron">
- 			<h1>Web Básica con Bootstrap 3</h1>
- 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dolorem ad officiis nihil delectus quidem animi rerum, molestias sint natus ducimus quod, unde molestiae dolores laboriosam error facilis odio doloremque.</p>
- 			<p><a class="btn btn-primary btn-lg" role="button">Leer mas</a></p>
- 		</div>
- 	</div>
+<div class="container">
+  <div class="row">
+   <div class="jumbotron">
+    <h1>Web Básica con Bootstrap 3</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dolorem ad officiis nihil delectus quidem animi rerum, molestias sint natus ducimus quod, unde molestiae dolores laboriosam error facilis odio doloremque.</p>
+    <p><a class="btn btn-primary btn-lg" role="button">Leer mas</a></p>
+  </div>
+</div>
  </div><!-- Fin Sección Jumbotron -->
 
  ```
@@ -145,19 +145,19 @@ Después vamos a realizar la cabecera principal en donde puedes hacer destacar d
 
  ```
  <!-- Sección de Artículos -->
- <div class="container" style="padding: 15px 10px;">
- 	<div class="row">
- 		<!-- Inicio Articulo ... -->
- 		<div class="col-xs-12 col-sm-6 col-md-4">
- 			<h2>Titulo del articulo 1</h2>
- 			<figure></figure>
- 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat distinctio illo rerum atque ducimus, laboriosam debitis eum deserunt ab libero quis voluptas, illum, perferendis numquam aut aliquam itaque qui magnam!</p>
- 			<a href="#" class="btn btn-success">Leer mas</a>
- 		</div><!-- Fin Articulo ... -->
- 		
- 		<!-- Agregar más articulos ... -->
- 		
- 	</div>
+<div class="container" style="padding: 15px 10px;">
+  <div class="row">
+    <!-- Inicio Articulo ... -->
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <h2>Titulo del articulo 1</h2>
+      <figure></figure>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat distinctio illo rerum atque ducimus, laboriosam debitis eum deserunt ab libero quis voluptas, illum, perferendis numquam aut aliquam itaque qui magnam!</p>
+      <a href="#" class="btn btn-success">Leer mas</a>
+    </div><!-- Fin Articulo ... -->
+    
+    <!-- Agregar más articulos ... -->
+    
+  </div>
  </div><!-- Fin Sección de Artículos -->
 
  ```
@@ -169,42 +169,42 @@ Después vamos a realizar la cabecera principal en donde puedes hacer destacar d
 
  ```
  <!-- Sección de Multimedia -->
- <div class="container" style="padding: 15px 10px;">
- 	<div class="row">
+<div class="container" style="padding: 15px 10px;">
+  <div class="row">
 
- 		<div class="col-md-4">
- 			<div class="thumbnail">
- 				<a href="http://lorempixel.com/600/400/" target="_blank">
- 					<img src="http://lorempixel.com/600/400/" alt="Lights" style="width:100%">
- 					<div class="caption">
- 						<p>Lorem ipsum...</p>
- 					</div>
- 				</a>
- 			</div>
- 		</div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="http://lorempixel.com/600/400/" target="_blank">
+          <img src="http://lorempixel.com/600/400/" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum...</p>
+          </div>
+        </a>
+      </div>
+    </div>
 
- 		<div class="col-md-4">
- 			<div class="thumbnail">
- 				<div class="embed-responsive embed-responsive-4by3" style="padding-bottom: 66.9%;">
- 					<iframe class="embed-responsive-item" width="560" height="235" src="https://www.youtube.com/embed/Y1HHBXDL9bg" frameborder="0" allowfullscreen></iframe>
- 				</div>
- 				<div class="caption"> <p>Lorem ipsum...</p> </div>
- 			</div>
- 		</div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <div class="embed-responsive embed-responsive-4by3" style="padding-bottom: 66.9%;">
+          <iframe class="embed-responsive-item" width="560" height="235" src="https://www.youtube.com/embed/Y1HHBXDL9bg" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="caption"> <p>Lorem ipsum...</p> </div>
+      </div>
+    </div>
 
- 		<div class="col-md-4">
- 			<div class="thumbnail">
- 				<a href="http://lorempixel.com/600/400/" target="_blank">
- 					<img src="http://lorempixel.com/600/400/" alt="Fjords" style="width:100%">
- 					<div class="caption">
- 						<p>Lorem ipsum...</p>
- 					</div>
- 				</a>
- 			</div>
- 		</div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="http://lorempixel.com/600/400/" target="_blank">
+          <img src="http://lorempixel.com/600/400/" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum...</p>
+          </div>
+        </a>
+      </div>
+    </div>
 
- 	</div>
- 	<hr>
+  </div>
+  <hr>
  </div><!-- Sección de Multimedia -->
  ```
 
@@ -215,8 +215,8 @@ Después vamos a realizar la cabecera principal en donde puedes hacer destacar d
 
  ```
  <footer class="footer-basic-centered">
- 	<p class="footer-company-motto">Proyecto Autogestión</p>
- 	<p class="footer-derechos">Todos los Derechos e Izquierdos Reservados &copy; 2017</p>
+  <p class="footer-company-motto">Proyecto Autogestión</p>
+  <p class="footer-derechos">Todos los Derechos e Izquierdos Reservados &copy; 2017</p>
  </footer><!-- Fin Sección Pie de Página -->
 
  ```
