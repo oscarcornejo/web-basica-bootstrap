@@ -31,18 +31,18 @@ Primero debemos de tener la estructura básica de la plantilla que nos ofrece Bo
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
- </head>
- <body>
+</head>
+<body>
 
- 	<!-- Librerías y Archivos JS-->
- 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
- 	<script src="js/jquery-3.2.1.min.js"></script>
- 	<!-- Include all compiled plugins (below), or include individual files as needed -->
+  <!-- Librerías y Archivos JS-->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
 
- 	<!-- Bootstrap Latest compiled and minified JavaScript -->
- 	<script src="js/bootstrap.min.js"></script>
- </body>
- </html>
+  <!-- Bootstrap Latest compiled and minified JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
 
  ```
 
