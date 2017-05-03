@@ -143,21 +143,33 @@ Después vamos a realizar la cabecera principal en donde puedes hacer destacar d
 
  ```
  <!-- Sección de Artículos -->
-<div class="container" style="padding: 15px 10px;">
-  <div class="row">
-    <!-- Inicio Articulo ... -->
-    <div class="col-xs-12 col-sm-6 col-md-4">
-      <h2>Titulo del articulo 1</h2>
-      <figure></figure>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat distinctio illo rerum atque ducimus, laboriosam debitis eum deserunt ab libero quis voluptas, illum, perferendis numquam aut aliquam itaque qui magnam!</p>
-      <a href="#" class="btn btn-success">Leer mas</a>
-    </div><!-- Fin Articulo ... -->
-    
-    <!-- Agregar más articulos ... -->
-    
-  </div>
- </div><!-- Fin Sección de Artículos -->
+  <div class="container" style="padding: 15px 10px;">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <h2>Titulo del articulo 1</h2>
+        <figure></figure>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat distinctio illo rerum atque ducimus, laboriosam debitis eum deserunt ab libero quis voluptas, illum, perferendis numquam aut aliquam itaque qui magnam!</p>
+        <a href="#" class="btn btn-success">Leer mas</a>
+      </div>
 
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <h2>Titulo del articulo 2</h2>
+        <figure></figure>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat distinctio illo rerum atque ducimus, laboriosam debitis eum deserunt ab libero quis voluptas, illum, perferendis numquam aut aliquam itaque qui magnam!</p>
+        <a href="#" class="btn btn-success">Leer mas</a>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <h2>Titulo del articulo 3</h2>
+        <figure></figure>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat distinctio illo rerum atque ducimus, laboriosam debitis eum deserunt ab libero quis voluptas, illum, perferendis numquam aut aliquam itaque qui magnam!</p>
+        <a href="#" class="btn btn-success">Leer mas</a>
+      </div>
+	
+	<!-- Puedes agregar más articulos ... -->
+	
+    </div>
+  </div><!-- Fin Sección de Artículos -->
  ```
 
  Paso 5: Multimedia
