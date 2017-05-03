@@ -52,7 +52,7 @@ Primero debemos de tener la estructura básica de la plantilla que nos ofrece Bo
  Ahora vamos a insertar el código para tener el menú de navegación, con un buscador, y el menú con opciones dentro:
 
  ```
- <section class="container">
+ <div class="container">
  <div class="row">
   <!-- Sección de Header -->
   <header>
@@ -114,7 +114,7 @@ Primero debemos de tener la estructura básica de la plantilla que nos ofrece Bo
    </nav><!-- Fin Sección de Nav -->
   </header><!-- Fin Sección de Header -->
  </div>
-</section>
+</div>
  ```
 
  Paso 3: Cabecera usando jumbotron
