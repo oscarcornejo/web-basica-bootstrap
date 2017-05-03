@@ -52,71 +52,69 @@ Primero debemos de tener la estructura básica de la plantilla que nos ofrece Bo
  Ahora vamos a insertar el código para tener el menú de navegación, con un buscador, y el menú con opciones dentro:
 
  ```
-
  <section class="container">
-	<div class="row">
-		<!-- Sección de Header -->
-		<header>
-			<!-- Sección de Nav -->
-			<nav class="navbar navbar-default" role="navigation">
-				<div class="container-fluid">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="#">Proyecto Autogestión</a>
-					</div>
+ <div class="row">
+  <!-- Sección de Header -->
+  <header>
+   <!-- Sección de Nav -->
+   <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+     <!-- Brand and toggle get grouped for better mobile display -->
+     <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+       <span class="sr-only">Toggle navigation</span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Proyecto Autogestión</a>
+     </div>
 
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav">
-							<li class="active"><a href="#">Inicio</a></li>
-							<li><a href="#">Nosotros</a></li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios <span class="caret"></span></a>
-								<ul class="dropdown-menu" role="menu">
-									<li><a href="#">Desarrollos</a></li>
-									<li><a href="#">Diseño</a></li>
-									<li><a href="#">Publicidad</a></li>
-									<li class="divider"></li>
-									<li><a href="#">Consultoria</a></li>
-									<li class="divider"></li>
-									<li><a href="#">Otros</a></li>
-								</ul>
-							</li>
-							<li><a href="#">Contacto</a></li>
-						</ul>
+     <!-- Collect the nav links, forms, and other content for toggling -->
+     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+       <li class="active"><a href="#">Inicio</a></li>
+       <li><a href="#">Nosotros</a></li>
+       <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios <span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+         <li><a href="#">Desarrollos</a></li>
+         <li><a href="#">Diseño</a></li>
+         <li><a href="#">Publicidad</a></li>
+         <li class="divider"></li>
+         <li><a href="#">Consultoria</a></li>
+         <li class="divider"></li>
+         <li><a href="#">Otros</a></li>
+        </ul>
+       </li>
+       <li><a href="#">Contacto</a></li>
+      </ul>
 
-						<form class="navbar-form navbar-left" role="search">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Buscador">
-							</div>
-							<button type="submit" class="btn btn-default">Buscar</button>
-						</form>
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#">Usuario</a></li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Mi cuenta <span class="caret"></span></a>
-								<ul class="dropdown-menu" role="menu">
-									<li><a href="#">Ingresar</a></li>
-									<li><a href="#">Registrarse</a></li>
-									<li><a href="#">Configuración</a></li>
-									<li class="divider"></li>
-									<li><a href="#">Cerrar Sesión</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div><!-- /.navbar-collapse -->
-				</div><!-- /.container-fluid -->
-			</nav><!-- Fin Sección de Nav -->
-		</header><!-- Fin Sección de Header -->
-	</div>
+      <form class="navbar-form navbar-left" role="search">
+       <div class="form-group">
+        <input type="text" class="form-control" placeholder="Buscador">
+       </div>
+       <button type="submit" class="btn btn-default">Buscar</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+       <li><a href="#">Usuario</a></li>
+       <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mi cuenta <span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+         <li><a href="#">Ingresar</a></li>
+         <li><a href="#">Registrarse</a></li>
+         <li><a href="#">Configuración</a></li>
+         <li class="divider"></li>
+         <li><a href="#">Cerrar Sesión</a></li>
+        </ul>
+       </li>
+      </ul>
+     </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+   </nav><!-- Fin Sección de Nav -->
+  </header><!-- Fin Sección de Header -->
+ </div>
 </section>
-
  ```
 
  Paso 3: Cabecera usando jumbotron
